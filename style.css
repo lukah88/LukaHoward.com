@@ -1,0 +1,300 @@
+*{
+	margin: 0 ;
+	padding: 0 ; 
+}
+
+div, section, span, ul, li, a, header{
+	box-sizing: boarder-box ;	
+}
+
+body{
+	font-size: 100% ;
+	font-family: Poppins ; 
+    font-weight: bold ;
+	background-color: #212323 ; 
+    color: #A0A0A0 ; 
+}
+
+.dark_mode{
+    background-color: #F6F6F6 ;
+    color: #212323 ; 
+    .Download_cv{
+        border-color: #212323 ; 
+        color: #212323 ; 
+    }
+    .LinkedIn{
+        border-color: #212323 ; 
+        color: #212323 ;
+    }
+    .Email{
+        border-color: #212323; 
+        color: #212323 ;
+    }
+    .ATS{
+        border-color: #212323; 
+        color: #212323 ;
+    }    
+    .Repo_Button{
+        border-color: #212323; 
+        color: #212323 ;
+    }
+    .TaskBar{
+        background-color: #212323;
+    }
+    .Menu_Button{
+        color: #F6F6F6  ; 
+    }
+    .Toggle{
+        background-color: #F6F6F6 ;
+    }
+}
+
+::-webkit-scrollbar {
+    height: 2px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #A0A0A0;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #212323;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #00E07F;
+}
+
+.TaskBar{
+    height: 50px ;
+    display: flex ;
+    background-color: #F6F6F6;
+}
+
+.TaskBar li{
+	list-style: none ;
+    position: relative ;
+    padding-left: 1% ;
+	display: inline-block;
+    top: 7% ;
+    left: 54% ; 
+	margin: 10px ; 
+}
+
+.TaskBar li a{
+	color: #212323  ; 
+	text-decoration: none ;
+	font-size: 15px ; 
+}
+
+.Menu_Button:hover{
+	color: #00E07F ;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+  
+  .sticky + .content{
+    padding-top: 102px;
+}
+
+.Toggle{
+    height: 25px ; 
+    width: 25px ;
+    border: none ;
+    border-radius: 5px ;
+    background-color: #6000FB ; 
+    bottom: -1222px ; 
+    background-color: #212323;
+
+}
+
+.Toggle:hover{
+    background-color: #00E07F ;
+}
+
+#About{
+    height: 460px;
+}
+
+.About_Text{
+    font-size: 20px ; 
+    position: absolute ;
+    margin-top: 260px ; 
+    margin-left: 15%;
+    margin-right: 10% ;
+    font-weight: 400 ;
+}
+
+
+.headshot{
+    position: absolute ;
+    padding-top: 1% ;
+    padding-left: 40% ; 
+    border-radius: 10px ;
+}
+
+.Download_cv{
+    position: absolute ; 
+    width: 250px ;
+    height: 30px ; 
+	margin-top: 32% ; 
+    margin-left: 15% ; 
+	border: 2px solid #F6F6F6;
+	border-radius: 10px ;
+	text-decoration: none ;
+    font-size: 20px ;
+    font-weight: 800 ; 
+	font-family: Poppins ; 
+    text-align: center ;
+    border-color: #F6F6F6 ;
+    color: #F6F6F6 ;
+}
+
+.Download_cv:hover{
+	color: #00E07F ;
+    border-color: #00E07F ;
+}
+
+.LinkedIn{
+    position: absolute;
+	margin-top: 32% ; 
+	right: 40% ; 
+    width: 250px ;
+    height: 30px ; 
+	border: 2px solid #F6F6F6;
+	border-radius: 10px ;
+	text-decoration: none ;
+    font-size: 20px ;
+    font-weight: 800 ; 
+	font-family: Poppins ; 
+    text-align: center ;
+    color: #F6F6F6 ;
+}
+
+.LinkedIn:hover{
+	color: #00E07F ;
+    border-color: #00E07F ;
+}
+
+.Email{
+    position: absolute;
+	margin-top: 32% ; 
+	right: 15% ; 
+    width: 250px ;
+    height: 30px ; 
+	border: 2px solid #F6F6F6;
+	border-radius: 10px ;
+	text-decoration: none ;
+    font-size: 20px ;
+    font-weight: 800 ; 
+	font-family: Poppins ; 
+    text-align: center ;
+    color: #F6F6F6 ;
+}
+
+.Email:hover{
+	color: #00E07F ;
+    border-color: #00E07F ;
+}
+
+.Button_Text{
+    margin-top: auto ;
+}
+
+#Skills{
+    height: 200px;
+}
+
+.Skills_Title{
+    font-weight: 800 ; 
+    margin-left: -14% ;
+}
+
+#Experience{
+    height: 500px;
+}
+
+.Section_Heading{
+    font-size: 45px ; 
+    position: absolute ;
+    left: 100px ; 
+}
+
+.Experience_Title{
+    font-weight: 800 ; 
+    margin-left: -5% ;
+}
+
+.Section_Text{
+    font-size: 20px ; 
+    position: absolute ;
+    margin-top: 55px ; 
+    margin-left: 15%;
+    margin-right: 10% ;
+    font-weight: 400 ;
+}
+
+#Projects{
+    height: 200px ;
+}
+
+.Project_Title{
+    font-weight: 800 ; 
+    margin-left: -10% ;
+}
+
+.Repo_List li{
+    position: relative ;
+    display: inline-block ;
+    padding-top: 100px ;
+    padding-left: 45px ;
+	text-decoration: none ;
+    font-size: 20px ;
+    font-weight: 800 ; 
+	font-family: Poppins ; 
+    text-align: center ;
+    color: #F6F6F6 ;
+}
+
+.ATS{
+    text-decoration: none;
+    color: #F6F6F6 ; 
+	border: 2px solid #F6F6F6;
+    width: 270px ;
+    padding-left: 5px ; 
+    padding-right: 5px ; 
+    padding-top: 2px ; 
+    padding-bottom: 2px ;  
+	border-radius: 10px ;
+}
+
+.Repo_Button{
+    text-decoration: none;
+    color: #F6F6F6 ;
+	border: 2px solid #F6F6F6;
+    width: 260px ;
+    padding-left: 5px ; 
+    padding-right: 5px ; 
+    padding-top: 2px ; 
+    padding-bottom: 2px ; 
+	border-radius: 10px ;
+}
+
+
+.ATS:hover{
+	color: #00E07F ;
+    border-color: #00E07F ;
+}
+
+.Repo_Button:hover{
+	color: #00E07F ;
+    border-color: #00E07F ;
+}
+
+#Education{
+    height: 200px ;
+}
